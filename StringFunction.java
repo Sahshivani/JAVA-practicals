@@ -28,8 +28,8 @@ public class StringFunction {
         // using .insert
         strbuff.insert(6, 'h');
         System.out.println("After using insert(6,'h') " + strbuff);
-        String str1 = "UPLAKSH", test = "UPLAKSH";
-        String str2 = " TYAGI";
+        String str1 = "SHIVANI", test = "SHIVANI";
+        String str2 = " SAH";
         System.out.println(str1.equals(test)); // returns true
         System.out.println(str1.equals(str2)); // returns false
         System.out.println(str1.concat(str2)); // returns combined strings
